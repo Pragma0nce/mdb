@@ -22,3 +22,13 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.thumb {
+    max-height: 300px;
+    height: auto;
+    width: 70%;
+    text-align: center;
+}
+
+.movie-simple{
+}

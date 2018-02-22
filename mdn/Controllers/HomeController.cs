@@ -20,6 +20,11 @@ namespace mdn.Controllers
             return View();
         }
 
+        public ActionResult Search()
+        {
+            return View();
+        }
+
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
