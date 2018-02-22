@@ -31,5 +31,12 @@ namespace mdn.Controllers
 
             return View();
         }
+
+        public ActionResult Details()
+        {
+            ViewBag.Message = "Movie details.";
+      
+            return View();
+        }
     }
 }
